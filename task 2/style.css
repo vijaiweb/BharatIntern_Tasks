@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:skyblue; /* Black theme background color */
+    color: black;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  header {
+    background-color: aqua;
+    color: black;
+    padding: 10px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    flex: 1;
+  }
+  
+  section {
+    position: relative;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid blueviolet;
+    border-radius: 2px;
+    background-color:darkgray; /* Black theme background color for sections */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Box shadow for sections */
+  }
+  
+  .users,
+  .task-assignment,
+  .chat {
+    flex: 1 1 300px;
+  }
+  
+  .users h2,
+  .task-assignment h2,
+  .chat h2 {
+    margin-top: 0;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  #chat-box {
+    height: 200px;
+    overflow-y: auto;
+    padding: 10px;
+  }
+  /* CSS for the chat messages */
+  .chat-message {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Add spacing between messages */
+  }
+  
+  .chat-message i {
+    margin-right: 10px; /* Add spacing between the icon and the message text */
+  }
+  #new-username{
+    height: 2rem;
+    width: 70%;
+  }
+  
+  #message {
+    width: 55%;
+    margin: 10px;
+    height: 2rem;
+  }
+  
+  #assign-task-btn,
+  #send-btn {
+    margin-top: 25px;
+  }
+  .box-handle{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+  }
+  
+  /* Additional styles for buttons inside sections */
+  button {
+    background-color: brown;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #333;
+  }
+  
+  button:active {
+    background-color: #1a1a1a;
+  }
+  .edit-btn,
+  .delete-btn {
+    margin-left: 5px;
+  }
+  /* Rest of the styles as per previous code */
+  
+  .login-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:brown; /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+  }
+  
+  .login-modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .login-modal h2 {
+    margin-top: 0;
+  }
+  
+  .login-modal label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .login-modal input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .login-modal button {
+    width: 100%;
+    padding: 10px;
+    background-color: brown; /* Green color for buttons */
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color:aqua;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .name {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .link{
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+  }
+  
+  
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Style for social icons */
+  .icon {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    color: #fff;
+  }
+  
+  /* Optional: Add hover effects on the social icons */
+  .icon:hover {
+    opacity: 0.8;
+  }
+  
+  
+  
+  

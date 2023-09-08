@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bharat Internship </title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>Code_With_Vijai</h1>
+        <div id="user-info">
+          <!-- User info will be dynamically updated with JavaScript -->
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="users">
+        <h2 style="margin-bottom: 20px;">User List</h2>
+        <ul id="user-list">
+          <!-- User list will be dynamically populated with JavaScript -->
+        </ul>
+        <div class="box-handle">
+          <input
+            type="text"
+            id="new-username"
+            placeholder="Enter new username"
+          />
+        <button id="add-user-btn" style="background-color: brown;">Add User</button>
+        </div>
+      </section>
+
+      <section class="task-assignment">
+        <h2 style="margin-bottom: 15px;">Task Assignment</h2>
+        <div class="assign-task">
+          <label for="assign-to" style="display: block; margin-bottom: 15px;">Assign to:</label>
+          <select id="assign-to">
+            <!-- Options will be dynamically populated with JavaScript -->
+          </select>
+          <label for="task">Task:</label>
+          <input type="text" id="task" placeholder="Enter the task" />
+          <button style="margin-top: 25px;" id="assign-task-btn" style="background-color: brown;">Assign Task</button>
+        </div>
+        <ul id="task-list">
+          <!-- Task list will be dynamically populated with JavaScript -->
+        </ul>
+      </section>
+
+      <section class="chat">
+        <h2>Chat</h2>
+        <div id="chat-box">
+          <!-- Chat messages will be dynamically populated with JavaScript -->
+        </div>
+        <div class="box-handle">
+          <input type="text" id="message"  placeholder="Type your message" />
+          <button id="send-btn" style="background-color: brown;">Send</button>
+          <button id="clear-chat-btn" style="background-color: brown;">Clear Chat</button>
+        </div>
+      </section>
+    </main>
+
+    <div class="login-modal">
+      <div class="login-modal-content">
+        <h2>Login</h2>
+        <label for="username">Username:</label>
+        <input type="text" id="username" />
+        <label for="password">Password:</label>
+        <input type="password" id="password" />
+        <button id="login-btn">Login</button>
+      </div>
+    </div>
+    <footer>
+     <div class="footer-sec layout text-center">
+            <p>Copyright &copy; Code_With_Vijai | All Right Reserved</p>
+        </div>
+    </footer>
+    <script src="p.js"></script>
+  </body>
+</html>

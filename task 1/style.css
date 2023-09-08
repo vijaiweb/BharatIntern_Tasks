@@ -1,0 +1,84 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.blogs {
+    border: ;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(img/bg.jpg);
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      opacity: 0.7;
+}
+
+.heading h1 {
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 2px solid skyblue;
+    padding: 15px;
+}
+
+.heading h1:hover {
+    transform: translate(100px);
+    color: rgb(25, 21, 16);
+}
+
+.form {
+
+    color: white;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10%;
+    margin-top: 30px;
+    
+}
+
+input {
+    padding: 5px;
+}
+
+textarea {
+    padding: 50px;
+}
+
+button {
+    align-items: center;
+    padding: 15px;
+    font-size: 20px;
+    width: 120px;
+    background-color: #303762;
+    color: #fcfcfc;
+    margin: 20px 0px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:deepskyblue;
+}
+
+#form-submission h1 {
+    color: #153778;
+}
+
+#form-submission {
+    display: none;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+#title-show,
+#content-show {
+    margin-bottom: 10px;
+    white-space: pre-line;
+}
+
+#image-show,
+#video-show {
+    display: block;
+    margin-top: 10px;
+    max-width: 100%;
+    height: auto;
+}
